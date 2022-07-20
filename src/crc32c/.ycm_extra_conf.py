@@ -33,6 +33,9 @@ def DirectoryOfThisScript():
   """Returns the absolute path to the directory containing this script."""
   return os.path.dirname(os.path.abspath(__file__))
 
+def DirectoryOfThisScript1():
+  """Returns the absolute path to the directory containing this script."""
+  return os.path.dirname(os.path.abspath(__file__))
 
 def MakeRelativePathsInFlagsAbsolute(flags, build_root):
   """Expands relative paths in a list of Clang command-line flags.
