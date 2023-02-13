@@ -17,7 +17,8 @@ public class BitcoinQtActivity extends QtActivity
         if (!bitcoinDir.exists()) {
             bitcoinDir.mkdir();
         }
-
+System.out.println("test");
+System.out.println("test");
         super.onCreate(savedInstanceState);
     }
 }
